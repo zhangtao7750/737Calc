@@ -1,0 +1,5 @@
+{
+  "name": "AeroCalc Performance",
+  "description": "A professional-grade aircraft performance calculator with a clean Apple-inspired interface, specializing in Vref calculations and flight performance metrics.",
+  "requestFramePermissions": []
+}
