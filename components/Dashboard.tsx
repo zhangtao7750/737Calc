@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ToolItem } from '../types';
+import { ToolItem } from '../types.ts';
 
 const TOOLS: ToolItem[] = [
   {

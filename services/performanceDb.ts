@@ -1,5 +1,5 @@
 
-import { AircraftType, EngineRating, PerformanceDataset, CalculationResult, PerformanceModule } from '../types';
+import { AircraftType, EngineRating, PerformanceDataset, CalculationResult, PerformanceModule } from '../types.ts';
 
 const DEFAULT_WEIGHTS = [85000, 80000, 75000, 70000, 65000, 60000, 55000, 50000, 45000, 40000];
 const DEFAULT_FLAPS = ["40", "30", "15"];
