@@ -1,12 +1,12 @@
 
 import React from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import Layout from './components/Layout';
-import Dashboard from './components/Dashboard';
-import VrefCalculator from './components/VrefCalculator';
-import HistoryView from './components/History';
-import SettingsView from './components/Settings';
-import MetarView from './components/MetarView';
+import Layout from './components/Layout.tsx';
+import Dashboard from './components/Dashboard.tsx';
+import VrefCalculator from './components/VrefCalculator.tsx';
+import HistoryView from './components/History.tsx';
+import SettingsView from './components/Settings.tsx';
+import MetarView from './components/MetarView.tsx';
 
 const AppContent: React.FC = () => {
   const location = useLocation();
